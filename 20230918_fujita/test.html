@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>演習問題HTML</title>
+</head>
+<body>
+    <header class="header">
+        <h1 class="header__ttl">株式会社TECH</h1>
+        <nav class="header__nav">
+            <ul class="header__list">
+                <li class="header__list-item"><a href="#">ホーム</a></li>
+                <li class="header__list-item"><a href="#">企業情報</a></li>
+                <li class="header__list-item"><a href="#">会社概要</a></li>
+                <li class="header__list-item"><a href="#">よくある質問</a></li>
+                <li class="header__list-item"><a href="#">お問い合わせ</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="main">
+        <img src="mv.png" alt="">
+        <p class="img__content">最新のテクノロジーで<em>社会課題</em>を解決</p>
+        <h2 class="company__ttl">会社概要</h2>
+        <table class="company__explain">
+            <tr class="company__explain-items">
+                <th class="company__explain-items--ttl">会社名</th>
+                <td class="company__explain-items--detail">株式会社TECH</td>
+            </tr>
+            <tr class="company__explain-items">
+                <th class="company__explain-items--ttl">代表者</th>
+                <td class="company__explain-items--detail">山田 太郎</td>
+            </tr>
+            <tr class="company__explain-items">
+                <th class="company__explain-items--ttl">所在地</th>
+                <td class="company__explain-items--detail">東京都渋谷区神宮前</td>
+            </tr>
+            <tr class="company__explain-items">
+                <th class="company__explain-items--ttl">設立</th>
+                <td class="company__explain-items--detail">2019/07/17</td>
+            </tr>
+            <tr class="company__explain-items">
+                <th class="company__explain-items--ttl">従業員数</th>
+                <td class="company__explain-items--detail">100人</td>
+            </tr>
+            <tr class="company__explain-items">
+                <th class="company__explain-items--ttl">資本金</th>
+                <td class="company__explain-items--detail">1000万円</td>
+            </tr>
+        </table>
+    </main>
+    <footer class="footer">
+        <h2 class="form__ttl">お問い合わせ</h2>
+        <form action="#" method="get">
+            <label for="form__company">会社名</label>
+            <input type="text" name="form__company" />
+        </form>
+        <form action="#" method="get">
+            <label for="form__name">お名前</label>
+            <input type="text" name="form__name" />
+        </form>
+        <form action="#" method="get">
+            <label for="form__mail">メールアドレス</label>
+            <input type="email" name="form__mail" />
+        </form>
+        <form action="#" method="get">
+            <label for="textarea">お問い合わせ内容</label>
+            <textarea name="textarea" cols="30" rows="10"></textarea>
+        </form>
+        <form action="#" method="get">
+            <button type="submit" class="form__btn">お申し込み</button>
+        </form>
+        <p class="footer__logo">&copy;2020TECH inc.</p>
+    </footer>
+</body>
+</html>
